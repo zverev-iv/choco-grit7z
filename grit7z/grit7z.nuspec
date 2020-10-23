@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>grit7z</id>
+    <version>1.1</version>
+    <packageSourceUrl>https://github.com/zverev-iv/choco-grit7z</packageSourceUrl>
+    <owners>zverev-iv</owners>
+    <title>grit7z (Install)</title>
+    <authors>Dec Software</authors>
+    <projectUrl>https://www.tc4shell.com/en/7zip/grit7z/</projectUrl>
+    <copyright>2020 Dec Software</copyright>
+    <licenseUrl>https://www.tc4shell.com/en/termsofuse/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>grit7z 7zip 7-zip grit pak Chrome Chromium Chromium-based</tags>
+    <summary>You can u   Grit7z with 7-Zip to open, modify, or create .PAK archives, which are used in Chrome or Chromium-based browsers.</summary>
+    <description>Grit7z is a small plugin for the popular 7-Zip archiver. You can use Grit7z with 7-Zip to open, modify, or create .PAK archives, which are used in Chrome or Chromium-based browsers. </description>
+    <releaseNotes>Current version
+
+Plugin version: 1.1
+
+Distribution package release date: 18 Jul 2019
+    </releaseNotes>
+    <dependencies>
+        <dependency id="7zip.install" version="19.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
